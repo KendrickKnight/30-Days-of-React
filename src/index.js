@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// Day's Main Components
+import D01 from "./Days/D01/D01"
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <D01 />
+    
+
   </React.StrictMode>
 );
 
